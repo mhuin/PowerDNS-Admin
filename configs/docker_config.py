@@ -14,6 +14,7 @@ SESSION_TYPE = 'sqlalchemy'
 
 legal_envvars = (
     'SECRET_KEY',
+    'SERVER_NAME',
     'OIDC_OAUTH_ENABLED',
     'OIDC_OAUTH_KEY',
     'OIDC_OAUTH_SECRET',
